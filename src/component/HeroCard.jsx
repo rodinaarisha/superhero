@@ -12,8 +12,8 @@ const HeroCard = ({ hero }) => {
   };
 
   return (
-    <div className="hero-card">
-      <div className='aboutHero'>
+    <div className="hero_card">
+      <div className='about_hero'>
         <h3>{hero.name}</h3>
         <p><strong>Вселенная:</strong> {hero.universe}</p>
         <p><strong>Альтер эго:</strong> {hero.alterego}</p>
@@ -21,7 +21,7 @@ const HeroCard = ({ hero }) => {
         <p><strong>Друзья:</strong> {hero.friends}</p>
         <p><strong>Суперсилы:</strong> {hero.superpowers}</p>
       </div>
-      <div className='imageBox'>
+      <div className='image_box'>
         <img src={hero.url} alt={hero.name} className='image'/>
       </div>
       <div className='star'>

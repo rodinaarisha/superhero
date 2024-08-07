@@ -1,4 +1,4 @@
-const heroesData = [
+export const heroesData = [
     {
       name: "Тор",
       universe: "Marvel Comics",
@@ -111,5 +111,3 @@ const heroesData = [
     }
     
   ];
-
-  export default heroesData; 

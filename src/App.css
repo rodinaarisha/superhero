@@ -25,11 +25,11 @@ h3{
   font-size: 40px;
 }
 p{font-size: 20px;}
-.aboutHero {
+.about_hero {
   margin-bottom: 10px; /* Добавлено отступ */
 }
 
-.imageBox {
+.imag_box {
   margin-bottom: 10px; /* Добавлено отступ */
 }
 
@@ -42,14 +42,14 @@ h3 {
   margin-bottom: 20px; 
 }
 
-.hero-gallery {
+.hero_gallery {
   display: flex;            
   flex-wrap: wrap;        
   margin-top: 20px;
   justify-content: space-between; /* Распределяем карточки по всей ширине */
 }
 
-.hero-card {
+.hero_card {
   background: white; 
   border: 5px solid black; 
   border-radius: 10px; 
